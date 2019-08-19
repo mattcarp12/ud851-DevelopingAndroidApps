@@ -248,20 +248,21 @@
             app:layout_constraintHorizontal_bias="0.33" />
 
         <!-- COMPLETED (12) Create an ImageView for the blue table's body -->
-        <ImageView
-            android:id="@+id/tableImage"
-            android:background="@color/colorPrimary"
-            android:layout_height="0dp"
-            android:layout_width="0dp"
-            android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/tableHeaderImage"
-            app:layout_constraintBottom_toBottomOf="@+id/textViewTerminal"/>
 
 
         <!-- COMPLETED (13) Create a TextView for each of the labels and text fields in the blue table -->
+        <ImageView
+            android:id="@+id/tableImage"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:background="@color/colorPrimary"
+            app:layout_constraintBottom_toBottomOf="@+id/textViewTerminal"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tableHeaderImage" />
+
         <TextView
             android:id="@+id/textViewTerminalLabel"
             android:text="@string/terminal_label"
